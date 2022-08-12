@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #9C835F;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.back-bt {
+    color: #724C21;
+    text-decoration: none;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    margin-left: 20px;
+
+}
+
+.header-text {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 36px;
+    color: #F9B23D;
+    margin-left: 20px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.batu {
+    width: 128px;
+    height: 92px;
+    align-self: center;
+    padding: 64px 46px;
+    cursor: pointer;
+}
+
+.gunting {
+    width: 134px;
+    height: 160px;
+    align-self: center;
+    padding: 30px 44px;
+    cursor: pointer;
+}
+
+.kertas {
+    width: 115px;
+    height: 150px;
+    align-self: center;
+    padding: 35px 52.5px;
+    cursor: pointer;
+}
+
+.content-text {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Open Sans';
+    line-height: 49px;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.vs-text {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 144px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #BD0000;
+    align-self: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.refresh-bt {
+    width: 77px;
+}
+
+.refresh {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius: 10px;
+    border: 1px;
+}
+
+.refresh-bt:hover {
+    width: 100px;
+}
+
+.result-vs {
+    align-self: center;
+}
+
+.rectangle {
+    width: 271.11px;
+    height: 166.93px;
+    background-color: #4C9654;
+    display: flex;
+    border-radius: 10px;
+    border: 1px;
+    transform: rotate(-20deg);
+    margin: 30px;
+}
+
+.result-text {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    Font-style: Bold;
+    letter-spacing: 0.1em;
+    align-self: center;
+    margin: auto;
+}
