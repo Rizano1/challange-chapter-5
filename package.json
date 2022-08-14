@@ -1,0 +1,24 @@
+{
+  "name": "challange-chapter-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: nonp test specified\" && exit 1",
+    "mon": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rizano1/challange-chapter-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rizano1/challange-chapter-5/issues"
+  },
+  "homepage": "https://github.com/Rizano1/challange-chapter-5#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
